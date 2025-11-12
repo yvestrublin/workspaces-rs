@@ -1,0 +1,13 @@
+[package]
+name = "workspaces"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.11.1"
+json = "0.12.4"
+sway = { path = "../sway-lib-rs" }
+i3ipc = "0.10.1"
+notify = "8"
